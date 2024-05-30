@@ -1,0 +1,31 @@
+# 这是一个注释
+# 忽略所有 .log 文件
+*.log
+
+# 忽略所有 .log 文件
+*.py
+
+# 忽略 node_modules 目录
+node_modules/
+
+
+
+# 忽略 build 目录下的所有内容
+build/
+
+# 忽略某个特定的文件
+secret.txt
+
+# 但是不忽略重要的日志文件
+!important.log
+
+# 递归匹配忽略
+**/backup/
+**/*.tmp
+
+#忽略文件夹
+1st folder/
+2nd folder/
+
+#忽略制定文件
+sss.cpp
