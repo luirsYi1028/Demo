@@ -3,7 +3,7 @@
 *.log
 
 # 忽略所有 .log 文件
-*.py
+*.log
 
 # 忽略 node_modules 目录
 node_modules/
@@ -17,7 +17,7 @@ build/
 secret.txt
 
 # 但是不忽略重要的日志文件
-!important.log
+city.json
 
 # 递归匹配忽略
 **/backup/
